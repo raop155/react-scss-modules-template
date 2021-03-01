@@ -1,0 +1,17 @@
+@import "styles/mediaquery";
+
+.component {
+  color: var(--primary);
+
+  .content {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  @include md {
+    color: var(--secondary);
+  }
+}
